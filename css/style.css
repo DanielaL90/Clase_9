@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+.descuentos {
+    background-color:#1CD1B0 ;
+    border: 1px;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.contenedor {
+    background-color: #00669F;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Roboto', Times, serif;
+}
+
+.card {
+    width: 300px;
+    background-color: #f3f3f3;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    margin-right: 20px;
+    display: inline-block;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.card-head .img-fondo {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 300px;
+    height: 193px;
+    object-fit: cover;
+}
+
+.card-head {
+    position: relative;
+    height: 193px;
+}
+
+.card-head .img-perfil {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    border-radius: 50%;
+    top: 128px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.card-head .img-corazon {
+    position: absolute;
+    top: 16px;
+    left: 21px;
+}
+
+.card-body {
+    text-align: center;
+    padding: 60px 16px 16px;
+
+}
